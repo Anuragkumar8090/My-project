@@ -1,0 +1,307 @@
+.Image
+{
+    height:430px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image_container
+{
+    border-radius: 8px;
+    height: 100%;
+    width:100%;
+    background-size: 100% 100%;
+    cursor:not-allowed;
+    background-image:url("Court_image_6.jpg");
+    animation: Image_Slider 12s step-end  infinite  ;
+}
+@keyframes Image_Slider {
+    0% 
+    {
+      background-image: url("Court_image_1.jpg");  
+    }
+    20% 
+    {
+      background-image: url("Court_image_2.jpg");  
+    }
+    40% 
+    {
+      background-image: url("Court_image_3.jpg");  
+    }
+    60% 
+    {
+      background-image: url("Court_image_4.jpg");  
+    }
+    80% 
+    {
+      background-image: url("Court_image_5.jpg");  
+    }
+    100% 
+    {
+      background-image: url("Court_image_6.jpg");  
+    }
+
+}
+
+
+                                   /* This is Css of FIR search bar */
+
+.Quick_Acess_bar
+{
+    
+    /* height:120px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* This is FIR search  */
+.FIR_container
+{
+  background-color:rgb(128, 121, 121) ;
+  width:max-content;
+  border-radius: 8px;
+  padding:10px;
+  margin:15px;
+}
+.FIR_container:hover
+{
+    transform:scale(102%);
+    box-shadow:0px 1px 20px 0px rgba(80, 77, 77, 0.9);
+}
+#FIR_Search_Box
+{
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    padding:5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+#FIR_search
+{
+    background-color: rgb(80, 78, 76);
+    border-radius: 8px;
+    margin-left:5px;
+}
+.FIR_text
+{
+    font-size: 22px;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+/* This is purchase section code */
+
+.Purchase
+{
+    background-color:rgb(128, 121, 121) ;
+    width:max-content;
+    border-radius: 8px;
+    padding:10px;
+    margin:15px;
+}
+.Purchase:hover
+{
+    transform:scale(103%);
+    box-shadow:0px 1px 20px 0px rgba(80, 77, 77, 0.9);
+}
+.Buy_text
+{
+    font-size: 22px;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom:10px;   
+}
+
+.Stamp_paper
+{
+    background-color: rgb(80, 78, 76);
+    border-radius: 8px;
+    margin-left:5px;
+    font-size:18px;
+}
+
+/* This is support assistant code */
+
+.Support_Assistant
+{
+    border-radius: 100%;
+    margin:15px;
+}
+#Support_assistant_logo
+{
+    border-radius: 100%;
+    height:70px;
+    width:70px;
+    box-shadow:4px 10px 40px rgba(0, 0, 0, 0.9);
+}
+#Support_assistant_logo:hover
+{
+    transform:scale(110%);
+    cursor: pointer;
+}
+
+                    /* This is letest updates container code */
+ 
+.Letest_updates_container
+{
+    height:max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    flex-wrap: wrap;
+}
+.Letest_updates_text
+{
+    color:white;
+    font-size:30px;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+                          /* This is Statistictics Section code */
+.Stats_section
+{
+  padding:20px;
+}
+
+.Stat_parent_1,.Stat_parent_2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left:40px;
+    margin-right:40px;
+    flex-wrap: wrap;
+}
+.Stat_parent_2
+{
+    margin-top:50px;
+}
+.Stat_Box_1,.Stat_Box_2,.Stat_Box_3,.Stat_Box_4,.Stat_Box_5,.Stat_Box_6,.Stat_Box_7,.Stat_Box_8
+{
+    border-radius: 8px;
+    height:100px;
+    width:200px;
+    background-color: rgb(128, 121, 121);
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.stat_box:hover
+{
+    transform: scale(103%);
+    box-shadow:0px 1px 20px 0px rgba(80, 77, 77, 0.9);
+}
+
+.stat_text, .stat_no
+{
+    text-decoration: none;
+    text-align: center;
+    margin:10px;
+    font-size: 15px;
+    color:white;
+}
+.stat_no
+{
+    font-size:30px;
+}
+ 
+                             /* This is Footer Section code */
+
+  /* This is Useful links section                            */
+.footer_container
+{
+    background-color:rgb(148, 143, 143);
+    border-radius:0px;
+    padding:10px;
+    margin:0px;
+    position:static;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}                          
+.useful_links
+{
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: rgb(128, 121, 121);
+   border-radius:8px;
+   padding:10px;
+   flex-wrap: wrap;
+}   
+
+.useful_links_right_section
+{
+    margin-left:30px;
+}
+.useful_links_text
+{
+    text-decoration: none;
+    font-size:11px;
+    margin:7px;
+    color:rgb(223, 223, 223);
+    font-family: Arial;
+}
+
+.useful_links_text:hover
+{
+    color:rgb(93, 151, 226); 
+}
+a
+{
+   text-decoration: none;
+}
+
+/* This is images links section */
+
+.Images_links_container
+{
+    background-color: rgb(128, 121, 121);
+    border-radius:8px;
+    padding:10px;
+    margin:10px;
+   
+}
+.link_image
+{
+    height:50px;
+    margin:10px;
+}
+.link_image:hover
+{
+   transform: scale(110%);
+}
+.Top_image, .Bottom_image
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+
+/* This is Website update section */
+.update_container
+{
+    background-color: rgb(128, 121, 121);
+    border-radius:8px;
+    padding:10px;
+    margin:10px;
+
+}
+.text_update
+{
+    text-align: center;
+}
